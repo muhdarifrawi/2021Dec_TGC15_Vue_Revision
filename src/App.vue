@@ -7,6 +7,7 @@
   <ColoredBox></ColoredBox>
   <ColoredBox></ColoredBox>
   <ColoredBox></ColoredBox>
+  <Counter></Counter>
 </template>
 
 <script>
@@ -14,6 +15,7 @@ import Basic from './components/Basic.vue'
 import RandomBox from './components/RandomBox.vue'
 import SayGreetings from './components/SayGreetings.vue'
 import ColoredBox from './components/ColoredBox.vue'
+import Counter from './components/Counter.vue'
 
 export default {
   name: 'App',
@@ -21,7 +23,8 @@ export default {
     Basic,
     RandomBox,
     SayGreetings,
-    ColoredBox
+    ColoredBox,
+    Counter
   }
 }
 </script>
