@@ -13,6 +13,7 @@
   <Dice></Dice>
   <ChangeText></ChangeText>
   <LightBulb switchedOn="false" />
+  <AddBox number1="11" number2="12" />
 </template>
 
 <script>
@@ -25,6 +26,7 @@ import Dice from './components/Dice.vue'
 import ChangeText from './components/ChangeText.vue'
 import Alert from './components/Alert.vue'
 import LightBulb from'./components/LightBulb.vue'
+import AddBox from './components/AddBox.vue'
 
 export default {
   name: 'App',
@@ -37,7 +39,8 @@ export default {
     Dice,
     ChangeText,
     Alert,
-    LightBulb
+    LightBulb,
+    AddBox
   }
 }
 </script>
