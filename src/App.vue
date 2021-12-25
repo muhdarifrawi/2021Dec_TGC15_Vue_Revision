@@ -3,17 +3,20 @@
   <RandomBox></RandomBox>
   <RandomBox></RandomBox>
   <RandomBox></RandomBox>
+  <SayGreetings></SayGreetings>
 </template>
 
 <script>
 import Basic from './components/Basic.vue'
 import RandomBox from './components/RandomBox.vue'
+import SayGreetings from './components/SayGreetings.vue'
 
 export default {
   name: 'App',
   components: {
     Basic,
-    RandomBox
+    RandomBox,
+    SayGreetings
   }
 }
 </script>
