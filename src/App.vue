@@ -4,19 +4,24 @@
   <RandomBox></RandomBox>
   <RandomBox></RandomBox>
   <SayGreetings></SayGreetings>
+  <ColoredBox></ColoredBox>
+  <ColoredBox></ColoredBox>
+  <ColoredBox></ColoredBox>
 </template>
 
 <script>
 import Basic from './components/Basic.vue'
 import RandomBox from './components/RandomBox.vue'
 import SayGreetings from './components/SayGreetings.vue'
+import ColoredBox from './components/ColoredBox.vue'
 
 export default {
   name: 'App',
   components: {
     Basic,
     RandomBox,
-    SayGreetings
+    SayGreetings,
+    ColoredBox
   }
 }
 </script>
