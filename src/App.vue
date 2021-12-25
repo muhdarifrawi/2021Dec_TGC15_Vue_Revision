@@ -1,5 +1,7 @@
 <template>
   <Basic/>
+  <Alert message="Danger danger" bgColor="salmon" />
+  <Alert message="This is a test" textSize="32px" bgColor="orange" />
   <RandomBox></RandomBox>
   <RandomBox></RandomBox>
   <RandomBox></RandomBox>
@@ -9,6 +11,8 @@
   <ColoredBox></ColoredBox>
   <Counter></Counter>
   <Dice></Dice>
+  <ChangeText></ChangeText>
+  <LightBulb switchedOn="false" />
 </template>
 
 <script>
@@ -18,6 +22,9 @@ import SayGreetings from './components/SayGreetings.vue'
 import ColoredBox from './components/ColoredBox.vue'
 import Counter from './components/Counter.vue'
 import Dice from './components/Dice.vue'
+import ChangeText from './components/ChangeText.vue'
+import Alert from './components/Alert.vue'
+import LightBulb from'./components/LightBulb.vue'
 
 export default {
   name: 'App',
@@ -27,7 +34,10 @@ export default {
     SayGreetings,
     ColoredBox,
     Counter,
-    Dice
+    Dice,
+    ChangeText,
+    Alert,
+    LightBulb
   }
 }
 </script>
