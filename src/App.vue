@@ -8,6 +8,7 @@
   <ColoredBox></ColoredBox>
   <ColoredBox></ColoredBox>
   <Counter></Counter>
+  <Dice></Dice>
 </template>
 
 <script>
@@ -16,6 +17,7 @@ import RandomBox from './components/RandomBox.vue'
 import SayGreetings from './components/SayGreetings.vue'
 import ColoredBox from './components/ColoredBox.vue'
 import Counter from './components/Counter.vue'
+import Dice from './components/Dice.vue'
 
 export default {
   name: 'App',
@@ -24,7 +26,8 @@ export default {
     RandomBox,
     SayGreetings,
     ColoredBox,
-    Counter
+    Counter,
+    Dice
   }
 }
 </script>
